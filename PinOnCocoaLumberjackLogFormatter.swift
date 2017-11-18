@@ -27,7 +27,7 @@
 import Foundation
 import CocoaLumberjack
 
-class PinOnCocoaLumberjackLogFormatter: NSObject, DDLogFormatter {
+final class PinOnCocoaLumberjackLogFormatter: NSObject, DDLogFormatter {
   
   private var dateFormatter: DateFormatter = {
     let df = DateFormatter()
